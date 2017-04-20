@@ -7,11 +7,17 @@
 //
 
 #import "YHAppDelegate.h"
-
+#import "YHViewController.h"
 @implementation YHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [YHRouter initialize];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[YHViewController new]];
+    self.window.rootViewController = navi;
+    [YHRouter shared].mainNavigator = navi;
     // Override point for customization after application launch.
     return YES;
 }
