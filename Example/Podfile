@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'YHRouterDemo_Example' do
+  pod 'YHRouterDemo', :path => '../'
+
+  target 'YHRouterDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
