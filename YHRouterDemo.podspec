@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHRouterDemo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YHRouterDemo.'
+  s.version          = '0.2.0'
+  s.summary          = 'router and quilkly'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+   router push and present block router push and present block
+     DESC
 
-  s.homepage         = 'https://github.com/617907240@qq.com/YHRouterDemo'
+
+  s.homepage         = 'hhttps://github.com/suweiz19890921/YHRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '617907240@qq.com' => 'suwei@solot.com' }
-  s.source           = { :git => 'https://github.com/617907240@qq.com/YHRouterDemo.git', :tag => s.version.to_s }
+  s.author           = { '814325429@qq.com' => 'suwei@solot.com' }
+  s.source           = { :git => 'https://github.com/suweiz19890921/YHRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -12,7 +12,8 @@
 
 + (void)initialize
 {
-        [[YHRouter shared] map:@"/av/:avId/" toControllerClass:[BBPhonePlayerVideoInfoViewControllerM2 class]];
+//MARK: 需要添加类映射 在这添加就可以了 也可以扩展block映射
+        [[YHRouter shared] map:@"/fishPlace/:fishPlaceId/" toControllerClass:NSClassFromString(@"YHFishPlaceController")];
 }
 
 + (BOOL)pushUrl:(NSString *)url animated:(BOOL)animated
@@ -24,7 +25,7 @@
     if (vc.params[@"animation"]) {
         animated = [vc.params[@"animation"] boolValue];
     }
-    [[BBPhoneNavigator sharedNavigator].navigationController pushViewController:vc animated:animated];
+    [[YHRouter shared].mainNavigator pushViewController:vc animated:animated];
     return YES;
 }
 
@@ -37,19 +38,11 @@
     if (vc.params[@"animation"]) {
         animated = [vc.params[@"animation"] boolValue];
     }
-    [[BBPhoneNavigator sharedNavigator].navigationController presentViewController:vc animated:animated completion:nil];
+    [[YHRouter shared].mainNavigator presentViewController:vc animated:animated completion:nil];
     return YES;
 
 }
 
-+ (BOOL)_unownInternalPush:(NSString *)url animated:(BOOL)animated
-{
-    if ([url rangeOfString:@"/player/"].location != NSNotFound) {
-        return [self presentUrl:url animated:animated];
-    } else {
-        return [self pushUrl:url animated:animated];
-    }
-}
 
 
 @end

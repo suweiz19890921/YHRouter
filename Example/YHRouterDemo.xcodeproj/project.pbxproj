@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2FAAE11E8FFF0F23A64AB764 /* Pods_YHRouterDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0CF0031F42F7A0DB3D0DD /* Pods_YHRouterDemo_Example.framework */; };
-		4A191D961EA8960F00EE313A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4A191D901EA8960F00EE313A /* .gitkeep */; };
-		4A191D971EA8960F00EE313A /* HHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A191D921EA8960F00EE313A /* HHRouter.m */; };
-		4A191D991EA8960F00EE313A /* YHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A191D951EA8960F00EE313A /* YHRouter.m */; };
 		4A191D9C1EA8964700EE313A /* YHFishPlaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A191D9B1EA8964700EE313A /* YHFishPlaceController.m */; };
+		4A191DCF1EA8A74700EE313A /* HHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A191DCB1EA8A74700EE313A /* HHRouter.m */; };
+		4A191DD11EA8A74700EE313A /* YHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A191DCE1EA8A74700EE313A /* YHRouter.m */; };
 		57102CF5179F114F59B146C9 /* Pods_YHRouterDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4C95D008249C97702F43FE /* Pods_YHRouterDemo_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -45,13 +44,12 @@
 		181281900E2485FF42B7E0B4 /* Pods-YHRouterDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHRouterDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHRouterDemo_Tests/Pods-YHRouterDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30B421457BE5AB244030B4C4 /* Pods-YHRouterDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHRouterDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHRouterDemo_Example/Pods-YHRouterDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3FA0CF0031F42F7A0DB3D0DD /* Pods_YHRouterDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHRouterDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A191D901EA8960F00EE313A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4A191D911EA8960F00EE313A /* HHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRouter.h; sourceTree = "<group>"; };
-		4A191D921EA8960F00EE313A /* HHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRouter.m; sourceTree = "<group>"; };
-		4A191D941EA8960F00EE313A /* YHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRouter.h; sourceTree = "<group>"; };
-		4A191D951EA8960F00EE313A /* YHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRouter.m; sourceTree = "<group>"; };
 		4A191D9A1EA8964700EE313A /* YHFishPlaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFishPlaceController.h; sourceTree = "<group>"; };
 		4A191D9B1EA8964700EE313A /* YHFishPlaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFishPlaceController.m; sourceTree = "<group>"; };
+		4A191DCA1EA8A74700EE313A /* HHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRouter.h; sourceTree = "<group>"; };
+		4A191DCB1EA8A74700EE313A /* HHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRouter.m; sourceTree = "<group>"; };
+		4A191DCD1EA8A74700EE313A /* YHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRouter.h; sourceTree = "<group>"; };
+		4A191DCE1EA8A74700EE313A /* YHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRouter.m; sourceTree = "<group>"; };
 		5AC8EEB78A9826EBEC2F9097 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YHRouterDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHRouterDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,16 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A191D8F1EA8960F00EE313A /* Classes */ = {
+		4A191DC91EA8A74700EE313A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4A191D901EA8960F00EE313A /* .gitkeep */,
-				4A191D911EA8960F00EE313A /* HHRouter.h */,
-				4A191D921EA8960F00EE313A /* HHRouter.m */,
-				4A191D941EA8960F00EE313A /* YHRouter.h */,
-				4A191D951EA8960F00EE313A /* YHRouter.m */,
+				4A191DCA1EA8A74700EE313A /* HHRouter.h */,
+				4A191DCB1EA8A74700EE313A /* HHRouter.m */,
+				4A191DCD1EA8A74700EE313A /* YHRouter.h */,
+				4A191DCE1EA8A74700EE313A /* YHRouter.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../../YHRouterDemo/Classes;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -153,7 +151,7 @@
 		6003F593195388D20070C39A /* Example for YHRouterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4A191D8F1EA8960F00EE313A /* Classes */,
+				4A191DC91EA8A74700EE313A /* Classes */,
 				6003F59C195388D20070C39A /* YHAppDelegate.h */,
 				6003F59D195388D20070C39A /* YHAppDelegate.m */,
 				6003F5A5195388D20070C39A /* YHViewController.h */,
@@ -306,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				4A191D961EA8960F00EE313A /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -420,12 +417,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A191DD11EA8A74700EE313A /* YHRouter.m in Sources */,
 				6003F59E195388D20070C39A /* YHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YHViewController.m in Sources */,
-				4A191D971EA8960F00EE313A /* HHRouter.m in Sources */,
+				4A191DCF1EA8A74700EE313A /* HHRouter.m in Sources */,
 				4A191D9C1EA8964700EE313A /* YHFishPlaceController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				4A191D991EA8960F00EE313A /* YHRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
