@@ -1,10 +1,7 @@
-//
-//  YHRouter.m
-//  
-//
-//  Created by zhangxinzheng on 8/20/15.
+
 //
 //
+
 
 #import "YHRouter.h"
 
@@ -12,6 +9,7 @@
 
 + (void)initialize
 {
+//也可以添加多层级映射
 //MARK: 需要添加类映射 在这添加就可以了 也可以扩展block映射
         [[YHRouter shared] map:@"/fishPlace/:fishPlaceId/" toControllerClass:NSClassFromString(@"YHFishPlaceController")];
 }
