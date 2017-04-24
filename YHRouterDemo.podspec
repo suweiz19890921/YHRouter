@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHRouterDemo'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'router and quilkly'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
      DESC
 
 
-  s.homepage         = 'hhttps://github.com/suweiz19890921/YHRouter'
+  s.homepage         = 'https://github.com/suweiz19890921/YHRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '814325429@qq.com' => 'suwei@solot.com' }
